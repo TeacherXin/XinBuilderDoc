@@ -1,0 +1,35 @@
+{
+  "name": "xinbuilderdoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "webpack serve",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.3.3",
+    "css-loader": "^6.7.3",
+    "ts-loader": "^9.4.2",
+    "vue-loader": "^17.0.1",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "ant-design-vue": "^4.0.0-rc.5",
+    "babel-loader": "^9.1.2",
+    "html-webpack-plugin": "^5.5.1",
+    "style-loader": "^3.3.3",
+    "vue": "^3.3.3",
+    "vue-compiler-sfc": "^0.0.0",
+    "vue-loader-v16": "^16.0.0-beta.5.4",
+    "vue-router": "^4.2.0"
+  }
+}
