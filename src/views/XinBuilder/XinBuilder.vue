@@ -1,7 +1,7 @@
 <template>
   <div class="XinBuilderDoc">
     <div class="leftList">
-      <a-menu :selectedKeys="['Xinbuilder/createPage']" mode="vertical">
+      <a-menu :selectedKeys="[selectedKey]" mode="vertical">
         <a-menu-item @click="changeDoc(item.key)" v-for="item in leftList" :key="item.key">
           {{ item.name || item }}
         </a-menu-item>
@@ -23,14 +23,27 @@ export default {
         {name: '配置样式',key: 'Xinbuilder/styleConfig'},
         {name: '配置事件',key: 'Xinbuilder/actionConfig'},
         'B','C','D','E','F','G','H','I','J','K','L','M','N'
-      ]
+      ],
+      selectedKey: 'Xinbuilder/createPage'
     }
   },
   methods: {
     changeDoc(item){
-      this.$router.push('/' + item)
+      this.$router.push('/' + item),
+      this.selectedKey = item
     }
-  }
+  },
+  // 监听,当路由发生变化的时候执行
+  watch: {
+    $route: {
+      handler: function(val, oldVal){
+        this.selectedKey = val.fullPath.replace('/','')
+        console.log(this.selectedKey)
+      },
+      immediate:true,
+      deep: true
+    }
+  },
 }
 </script>
 

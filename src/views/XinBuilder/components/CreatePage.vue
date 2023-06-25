@@ -18,14 +18,18 @@
       </a-typography-paragraph>
     </a-typography>
     <div>
-      <a-button size="large" style="float:right;height:80px" type="link">下一篇 配置属性</a-button>
+      <a-button @click="() => {this.$router.push('/Xinbuilder/attributeConfig')}" size="large" style="float:right;height:80px" type="link">下一篇 配置属性</a-button>
     </div>
   </div>
 </template>
 
 <script>
 export default {
+  data(){
+    return {
 
+    }
+  }
 }
 </script>
 
