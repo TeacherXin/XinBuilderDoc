@@ -3,6 +3,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import XinBuilder from '../views/XinBuilder/XinBuilder.vue'
 import createPage from '../views/XinBuilder/components/CreatePage.vue'
 import attributeConfig from '../views/XinBuilder/components/AttributeConfig.vue'
+import styleConfig from '../views/XinBuilder/components/StyleConfig.vue'
 
 const routes = [
   { path: '/MainDoc', component: MainDoc },
@@ -17,6 +18,10 @@ const routes = [
       {
         path: 'attributeConfig',
         component: attributeConfig
+      },
+      {
+        path: 'styleConfig',
+        component: styleConfig
       }
     ]
   }
