@@ -32,7 +32,7 @@
       </a-typography-paragraph>
     </a-typography>
     <div>
-      <a-button size="large" style="float:right;height:80px" type="link">下一篇 配置样式</a-button>
+      <a-button @click="() => {this.$router.push('/Xinbuilder/actionConfig')}" size="large" style="float:right;height:80px" type="link">下一篇 配置事件</a-button>
     </div>
   </div>
 </template>

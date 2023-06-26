@@ -4,6 +4,7 @@ import XinBuilder from '../views/XinBuilder/XinBuilder.vue'
 import createPage from '../views/XinBuilder/components/CreatePage.vue'
 import attributeConfig from '../views/XinBuilder/components/AttributeConfig.vue'
 import styleConfig from '../views/XinBuilder/components/StyleConfig.vue'
+import actionConfig from '../views/XinBuilder/components/ActionConfig.vue'
 
 const routes = [
   { path: '/MainDoc', component: MainDoc },
@@ -22,6 +23,10 @@ const routes = [
       {
         path: 'styleConfig',
         component: styleConfig
+      },
+      {
+        path: 'actionConfig',
+        component: actionConfig
       }
     ]
   }
