@@ -22,6 +22,7 @@ export default {
         {name: '配置属性',key: 'Xinbuilder/attributeConfig'},
         {name: '配置样式',key: 'Xinbuilder/styleConfig'},
         {name: '配置事件',key: 'Xinbuilder/actionConfig'},
+        {name: '模型对象xinCtx',key: 'Xinbuilder/xinCtxData'},
         'B','C','D','E','F','G','H','I','J','K','L','M','N'
       ],
       selectedKey: 'Xinbuilder/createPage'
