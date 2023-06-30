@@ -52,7 +52,7 @@ xinCtx.XinLable514.attributeValue = result.map(item => item.attributeValue).toSt
       </a-typography-paragraph>
     </a-typography>
     <div>
-      <a-button @click="() => {this.$router.push('/Xinbuilder/xinCtxData')}" size="large" style="float:right;height:80px" type="link">下一篇 Flex布局容器</a-button>
+      <a-button @click="() => {this.$router.push('/Xinbuilder/xinFlex')}" size="large" style="float:right;height:80px" type="link">下一篇 Flex布局容器</a-button>
     </div>
   </div>
 </template>

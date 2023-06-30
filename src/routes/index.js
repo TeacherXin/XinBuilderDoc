@@ -7,6 +7,7 @@ import styleConfig from '../views/XinBuilder/components/StyleConfig.vue'
 import actionConfig from '../views/XinBuilder/components/ActionConfig.vue'
 import xinCtxData from '../views/XinBuilder/components/XinCtxData.vue'
 import toDoList from '../views/XinBuilder/components/ToDoList.vue'
+import xinFlex from '../views/XinBuilder/components/XinFlex.vue'
 
 const routes = [
   { path: '/MainDoc', component: MainDoc },
@@ -37,6 +38,10 @@ const routes = [
       {
         path: 'toDoList',
         component: toDoList
+      },
+      {
+        path: 'xinFlex',
+        component: xinFlex
       }
     ]
   }

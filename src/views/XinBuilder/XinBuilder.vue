@@ -24,6 +24,7 @@ export default {
         {name: '配置事件',key: 'Xinbuilder/actionConfig'},
         {name: '模型对象xinCtx',key: 'Xinbuilder/xinCtxData'},
         {name: '实现ToDoList页面',key: 'Xinbuilder/toDoList'},
+        {name: 'Flex布局容器',key: 'Xinbuilder/xinFlex'},
         'B','C','D','E','F','G','H','I','J','K','L','M','N'
       ],
       selectedKey: 'Xinbuilder/createPage'
