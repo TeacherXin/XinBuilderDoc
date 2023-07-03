@@ -47,7 +47,7 @@ alert(list)</pre>
       </a-typography-paragraph>
     </a-typography>
     <div>
-      <a-button @click="() => {this.$router.push('/Xinbuilder/xinCtxData')}" size="large" style="float:right;height:80px" type="link">下一篇 使用Flex优化ToDoList</a-button>
+      <a-button @click="() => {this.$router.push('/Xinbuilder/xinLunBo')}" size="large" style="float:right;height:80px" type="link">下一篇 轮播图组件</a-button>
     </div>
   </div>
 </template>
