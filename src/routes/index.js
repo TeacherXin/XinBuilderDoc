@@ -11,6 +11,7 @@ import xinFlex from '../views/XinBuilder/components/XinFlex.vue'
 import newToDoList from '../views/XinBuilder/components/NewToDoList.vue'
 import xinLunBo from '../views/XinBuilder/components/XinLunBo.vue'
 import xinForm from '../views/XinBuilder/components/XinForm.vue'
+import xinTable from '../views/XinBuilder/components/XinTable.vue'
 
 const routes = [
   { path: '/MainDoc', component: MainDoc },
@@ -57,6 +58,10 @@ const routes = [
       {
         path: 'xinForm',
         component: xinForm
+      },
+      {
+        path: 'xinTable',
+        component: xinTable
       }
     ]
   }

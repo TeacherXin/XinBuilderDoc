@@ -28,6 +28,7 @@ export default {
         {name: '使用Flex优化ToDoList',key: 'Xinbuilder/newToDoLiST'},
         {name: '轮播图组件',key: 'Xinbuilder/xinLunBo'},
         {name: 'Form表单组件',key: 'Xinbuilder/xinForm'},
+        {name: 'Table表格组件',key: 'Xinbuilder/xinTable'},
         'B','C','D','E','F','G','H','I','J','K','L','M','N'
       ],
       selectedKey: 'Xinbuilder/createPage'

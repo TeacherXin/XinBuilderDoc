@@ -16,7 +16,7 @@
       </a-typography-paragraph>
     </a-typography>
     <div>
-      <a-button @click="() => {this.$router.push('/Xinbuilder/xinForm')}" size="large" style="float:right;height:80px" type="link">下一篇 Table表格</a-button>
+      <a-button @click="() => {this.$router.push('/Xinbuilder/xinTable')}" size="large" style="float:right;height:80px" type="link">下一篇 Table表格</a-button>
     </div>
   </div>
 </template>
