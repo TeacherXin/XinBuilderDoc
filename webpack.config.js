@@ -12,8 +12,7 @@ module.exports = {
   plugins: [
     new webpack.ProgressPlugin(),
     new HtmlWebpackPlugin({ template: './public/index.html' }),
-    new VueLoaderPlugin(),
-    new webpack.HotModuleReplacementPlugin(),
+    new VueLoaderPlugin()
   ],
   module: {
     rules: [

@@ -27,6 +27,7 @@ export default {
         {name: 'Flex布局容器',key: 'Xinbuilder/xinFlex'},
         {name: '使用Flex优化ToDoList',key: 'Xinbuilder/newToDoLiST'},
         {name: '轮播图组件',key: 'Xinbuilder/xinLunBo'},
+        {name: 'Form表单组件',key: 'Xinbuilder/xinForm'},
         'B','C','D','E','F','G','H','I','J','K','L','M','N'
       ],
       selectedKey: 'Xinbuilder/createPage'
