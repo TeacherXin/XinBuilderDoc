@@ -29,7 +29,8 @@ export default {
         {name: '轮播图组件',key: 'Xinbuilder/xinLunBo'},
         {name: 'Form表单组件',key: 'Xinbuilder/xinForm'},
         {name: 'Table表格组件',key: 'Xinbuilder/xinTable'},
-        'B','C','D','E','F','G','H','I','J','K','L','M','N'
+        {name: 'Table + Form',key: 'Xinbuilder/formToTable'},
+        {name: '未完待续',key: '/'}
       ],
       selectedKey: 'Xinbuilder/createPage'
     }

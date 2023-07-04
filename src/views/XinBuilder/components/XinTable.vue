@@ -20,7 +20,7 @@
       </a-typography-paragraph>
     </a-typography>
     <div>
-      <a-button @click="() => {this.$router.push('/Xinbuilder/xinForm')}" size="large" style="float:right;height:80px" type="link">下一篇 Table + Form实现简单的数据存储</a-button>
+      <a-button @click="() => {this.$router.push('/Xinbuilder/formToTable')}" size="large" style="float:right;height:80px" type="link">下一篇 Table + Form实现简单的数据存储</a-button>
     </div>
   </div>
 </template>

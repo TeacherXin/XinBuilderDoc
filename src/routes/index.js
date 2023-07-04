@@ -12,6 +12,7 @@ import newToDoList from '../views/XinBuilder/components/NewToDoList.vue'
 import xinLunBo from '../views/XinBuilder/components/XinLunBo.vue'
 import xinForm from '../views/XinBuilder/components/XinForm.vue'
 import xinTable from '../views/XinBuilder/components/XinTable.vue'
+import formToTable from '../views/XinBuilder/components/FormToTable.vue'
 
 const routes = [
   { path: '/MainDoc', component: MainDoc },
@@ -62,6 +63,10 @@ const routes = [
       {
         path: 'xinTable',
         component: xinTable
+      },
+      {
+        path: 'formToTable',
+        component: formToTable
       }
     ]
   }
